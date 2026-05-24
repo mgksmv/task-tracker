@@ -1,0 +1,65 @@
+:root {
+  --p-inputtext-padding-y: 0.45rem !important;
+  --p-button-success-background: #1aa42c !important;
+  --p-button-success-border-color: #1aa42c !important;
+}
+
+.p-component,
+.p-inputgroupaddon {
+  border-radius: 0.5rem !important;
+}
+
+.p-button {
+  border-radius: 0.75rem !important;
+}
+
+.p-dialog {
+  border-radius: 1rem !important;
+}
+
+.p-buttongroup .p-button:not(:first-child):not(:last-child) {
+  border-radius: 0 !important;
+}
+
+.p-buttongroup .p-button:first-child {
+  border-radius: 0.75rem 0 0 0.75rem !important;
+}
+
+.p-buttongroup .p-button:last-child {
+  border-radius: 0 0.75rem 0.75rem 0 !important;
+}
+
+.p-selectbutton .p-togglebutton:not(:first-child):not(:last-child) {
+  border-radius: 0 !important;
+}
+
+.p-selectbutton .p-togglebutton:first-child {
+  border-radius: 0.75rem 0 0 0.75rem !important;
+}
+
+.p-selectbutton .p-togglebutton:last-child {
+  border-radius: 0 0.75rem 0.75rem 0 !important;
+}
+
+.p-inputgroup .p-component:not(:first-child):not(:last-child) {
+  border-radius: 0 !important;
+}
+
+.p-inputgroup .p-component:first-child,
+.p-inputgroupaddon:first-child {
+  border-radius: 0.75rem 0 0 0.75rem !important;
+}
+
+.p-inputgroup .p-component:last-child,
+.p-inputgroupaddon:last-child {
+  border-radius: 0 0.75rem 0.75rem 0 !important;
+}
+
+.p-component,
+.p-select-label {
+  font-size: 14px !important;
+}
+
+.p-datatable-sortable-column {
+  padding: 4px 16px !important;
+}
